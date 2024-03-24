@@ -1,0 +1,25 @@
+.content {
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.post {
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    &-title {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &-body {
+        font-size: 20px;
+        text-align: center;
+    }
+}
